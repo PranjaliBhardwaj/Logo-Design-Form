@@ -1,0 +1,23 @@
+/* Define custom styles for the input and textarea */
+.semicircle-input {
+    background-color: #f3f4f6; /* Light grey background */
+    color: #6b7280; /* Text color for placeholders */
+    padding: 10px 20px; /* Padding inside the inputs */
+    border-radius: 999px; /* Fully rounded (equivalent to rounded-full) */
+    border: none; /* Remove default borders */
+    width: 50%; /* Full width for input fields */
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+    outline: none; /* Remove default outline on focus */
+}
+
+.semicircle-input::placeholder {
+    color: #9ca3af; /* Light grey placeholder text color */
+}
+
+.semicircle-input:focus {
+    outline: 2px solid #10b981; /* Green outline on focus */
+}
+
+.h-32 {
+    height: 8rem;
+}

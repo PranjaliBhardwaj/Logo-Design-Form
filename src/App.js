@@ -5,7 +5,7 @@ import './index.css'; // Ensure CSS is loaded
 function App() {
   return (
     <div className="App">
-      <h1><b>Logo Desgin Form</b></h1>
+      <h1><b>Logo Design Form</b></h1>
       <Form />
     </div>
   );
